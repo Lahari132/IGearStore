@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products - IGear Store</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>IGear Store</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart</a>
+      <a href="wishlist.html">Wishlist</a>
+      <a href="profile.html">Profile</a>
+    </nav>
+  </header>
+
+  <!-- Products Section -->
+  <section class="products">
+    <h2>iPhone Covers</h2>
+    <p>Showing products for your selected model.</p>
+
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product">
+        <img src="images/warmech.png" alt="War Mech Cover">
+        <h3>War Mech Stride 2.0</h3>
+        <p>₹899 <span class="old-price">₹2099</span></p>
+        <p>Pixel-art robot design with MagSafe support.</p>
+        <button onclick="addToCart('warmech')">Add to Cart</button>
+        <button onclick="addToWishlist('warmech')">Add to Wishlist</button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product">
+        <img src="images/cartoon.png" alt="Cartoon Cover">
+        <h3>Cartoon Blast Case</h3>
+        <p>₹799 <span class="old-price">₹1799</span></p>
+        <p>Colorful cartoon-style design with durable grip.</p>
+        <button onclick="addToCart('cartoon')">Add to Cart</button>
+        <button onclick="addToWishlist('cartoon')">Add to Wishlist</button>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product">
+        <img src="images/monkey.png" alt="Monkey Shoulder Cover">
+        <h3>Monkey Shoulder Edition</h3>
+        <p>₹699 <span class="old-price">₹1599</span></p>
+        <p>Orange splatter graphic with bold typography.</p>
+        <button onclick="addToCart('monkey')">Add to Cart</button>
+        <button onclick="addToWishlist('monkey')">Add to Wishlist</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 IGear Store. All rights reserved.</p>
+    <p>Email: support_igear.store@gmail.com | Phone: +91 8121822399</p>
+  </footer>
+</body>
+</html>
